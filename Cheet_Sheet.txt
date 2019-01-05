@@ -1,0 +1,7 @@
+// Deploy the function with gcloud
+gcloud functions deploy converter --runtime nodejs8 --trigger-http
+
+// You can test the API directly with the following URLs - Change the URL to point to your deployment
+https://us-central1-doug-rehnstrom.cloudfunctions.net/converter/api/conversions/to-celsius/212
+// or
+https://us-central1-doug-rehnstrom.cloudfunctions.net/converter/api/conversions/to-fahrenheit/100

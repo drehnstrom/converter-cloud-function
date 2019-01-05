@@ -1,0 +1,28 @@
+<div class="jumbotron">
+    <div class="container">
+        <h1>{{title}}</h1>
+        <p>Welcome to {{title}}</p>
+    </div>
+</div>
+
+
+
+<div>
+    <form method="post">
+
+        <div><h3>Value to Convert:</h3><input name="valuetoconvert" value="{{value}}" /></div>
+        <div>
+            <input type="submit" value="Celsius" name="conversion">
+            <input type="submit" value="Fahrenheit" name="conversion" />
+        </div>
+    </form>
+    <h2>{{answer}}</h2>
+</div>
+<h3>Test the APIs</h3>
+<div>
+<a href="https://{{location}}/converter/api/conversions/to-celsius/212">https://{{location}}/converter/api/conversions/to-celsius/212</a>
+</div>
+<div>
+<a href="https://{{location}}/converter/api/conversions/to-fahrenheit/100">https://{{location}}/converter/api/conversions/to-fahrenheit/100</a>
+
+</div>
